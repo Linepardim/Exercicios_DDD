@@ -1,0 +1,34 @@
+package entrada_processamento_saida;
+
+import java.util.Scanner;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+	Scanner ler = new Scanner(System.in);
+	
+	double a, b, c, d, e, soma;
+	
+	System.out.printf("Primeiro número:");
+	a = ler.nextDouble();
+	
+	System.out.printf("Segundo número:");
+	b = ler.nextDouble();
+	
+	System.out.printf("Terceiro número:");
+	c = ler.nextDouble();
+	
+	System.out.printf("Quarto número:");
+	d = ler.nextDouble();
+	
+	System.out.printf("Divida por:");
+	e = ler.nextDouble();
+	
+	soma = a + b + c + d / e;
+	
+	System.out.printf("A média aritmética é: = %.2f", (a + b + c + d) / e, soma);
+			
+	
+	
+    }
+}

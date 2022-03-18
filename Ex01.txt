@@ -1,0 +1,26 @@
+package entrada_processamento_saida;
+
+import java.util.Scanner;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+	Scanner ler = new Scanner(System.in);
+	
+	int a, b, soma;
+	
+	System.out.printf("Digite a base do retângulo:");
+	a = ler.nextInt();
+	
+	System.out.printf("Digite a altura do retãngulo:");
+    b = ler.nextInt();
+    
+    soma = a * b;
+    
+    System.out.printf("A área do retângulo é: %d", soma);
+    	
+					
+
+	}
+
+}
